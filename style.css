@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #394249;
+}
+
+.container{
+    max-width: 1100px;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    margin:1.5rem auto; 
+}
+
+.card{
+    background-color: #ffffff ;
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 2px;
+    padding:1rem 1.5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.input-form .inputs,
+.input-form .submit,
+.results .output{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: right;
+}
+
+.input-form .inputs,
+.results .output{
+    border:1px solid #666666;
+    border-radius: 2px;
+}
+
+.input-form .inputs .sign,
+.results .output .output-addon{
+    padding:0.5rem;
+    color:#666666;
+    background-color:#dddddd;
+    border-right:1px solid #666666;
+}
+
+.input-form .inputs input,
+.input-form .submit input{
+    width:100%;
+    outline:none;
+    border:none;
+    padding:0.5rem;
+}
+
+.input-form .submit input{
+    background-color:#394249;
+    color:white;
+}
+
+.input-form .submit input:hover{
+    cursor:pointer;
+    background:#666666;
+}
+
+.results{
+    margin-top: 1.5rem;
+}
+
+.results .output input{
+    outline:none;
+    border:none;
+    padding:0.5rem;
+}
+
+.loader{
+    display: flex;
+    align-self: center;
+}
+
+
